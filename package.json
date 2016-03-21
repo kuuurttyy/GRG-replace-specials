@@ -1,0 +1,22 @@
+{
+    "name": "grg-special-character-replacer",
+    "title": "GRG Special Character Replacer",
+    "version": "1.0.0",
+    "description": "Extension that searches through and replaces any special characters with relevant code equivalent.",
+    "homepage": "",
+    "author": "Kurt Stubbings",
+    "license": "MIT",
+    "categories":"snippets",
+    "keywords": [
+        "special",
+        "character",
+		"replacement"
+    ],
+    "files": [
+        "main.js",
+        "README.md"
+    ],
+    "engines": {
+        "brackets": ">=1.00.0"
+    }
+}
