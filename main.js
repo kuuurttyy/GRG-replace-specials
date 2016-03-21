@@ -44,85 +44,83 @@ define(function (require, exports, module) {
             htmlContent = htmlContent.replace(/”/g, "\"");
             htmlContent = htmlContent.replace(/\s&\s/g, " &amp; ");
 
-            htmlContent = htmlContent.replace("À", "&Agrave;");
-            htmlContent = htmlContent.replace("Á", "&Aacute;");
-            htmlContent = htmlContent.replace("Â", "&Acirc;");
-            htmlContent = htmlContent.replace("Ã", "&Atilde;");
-            htmlContent = htmlContent.replace("Ä", "&Auml;");
-            htmlContent = htmlContent.replace("Å", "&Aring;");
-            htmlContent = htmlContent.replace("Æ", "&AElig;");
+            htmlContent = htmlContent.replace(/\u00C0/g, "&Agrave;");
+            htmlContent = htmlContent.replace(/\u00C1/g, "&Aacute;");
+            htmlContent = htmlContent.replace(/\u00C2/g, "&Acirc;");
+            htmlContent = htmlContent.replace(/\u00C3/g, "&Atilde;");
+            htmlContent = htmlContent.replace(/\u00C4/g, "&Auml;");
+            htmlContent = htmlContent.replace(/\u00C5/g, "&Aring;");
+            htmlContent = htmlContent.replace(/\u00C6/g, "&AElig;");
 
-            htmlContent = htmlContent.replace("Ç", "&Ccedil;");
+            htmlContent = htmlContent.replace(/\u00C7/g, "&Ccedil;");
 
-            htmlContent = htmlContent.replace("È", "&Egrave;");
-            htmlContent = htmlContent.replace("É", "&Eacute;");
-            htmlContent = htmlContent.replace("Ê", "&Ecirc;");
-            htmlContent = htmlContent.replace("Ë", "&Euml;");
+            htmlContent = htmlContent.replace(/\u00C8/g, "&Egrave;");
+            htmlContent = htmlContent.replace(/\u00C9/g, "&Eacute;");
+            htmlContent = htmlContent.replace(/\u00CA/g, "&Ecirc;");
+            htmlContent = htmlContent.replace(/\u00CB/g, "&Euml;");
 
-            htmlContent = htmlContent.replace("Ì", "&Igrave;");
-            htmlContent = htmlContent.replace("Í", "&Iacute;");
-            htmlContent = htmlContent.replace("Î", "&Icirc;");
-            htmlContent = htmlContent.replace("Ï", "&Iuml;");
+            htmlContent = htmlContent.replace(/\u00CC/g, "&Igrave;");
+            htmlContent = htmlContent.replace(/\u00CD/g, "&Iacute;");
+            htmlContent = htmlContent.replace(/\u00CE/g, "&Icirc;");
+            htmlContent = htmlContent.replace(/\u00CF/g, "&Iuml;");
 
-            htmlContent = htmlContent.replace("Ñ", "&Ntilde;");
+            htmlContent = htmlContent.replace(/\u00D1/g, "&Ntilde;");
 
-            htmlContent = htmlContent.replace("Ò", "&Ograve;");
-            htmlContent = htmlContent.replace("Ó", "&Oacute;");
-            htmlContent = htmlContent.replace("Ô", "&Ocirc;");
-            htmlContent = htmlContent.replace("Õ", "&Otilde;");
-            htmlContent = htmlContent.replace("Ö", "&Ouml;");
+            htmlContent = htmlContent.replace(/\u00D2/g, "&Ograve;");
+            htmlContent = htmlContent.replace(/\u00D3/g, "&Oacute;");
+            htmlContent = htmlContent.replace(/\u00D4/g, "&Ocirc;");
+            htmlContent = htmlContent.replace(/\u00D5/g, "&Otilde;");
+            htmlContent = htmlContent.replace(/\u00D6/g, "&Ouml;");
 
-            htmlContent = htmlContent.replace("Ù", "&Ugrave;");
-            htmlContent = htmlContent.replace("Ú", "&Uacute;");
-            htmlContent = htmlContent.replace("Û", "&Ucirc;");
-            htmlContent = htmlContent.replace("Õ", "&Utilde;");
-            htmlContent = htmlContent.replace("Ü", "&Uuml;");
+            htmlContent = htmlContent.replace(/\u00D9/g, "&Ugrave;");
+            htmlContent = htmlContent.replace(/\u00DA/g, "&Uacute;");
+            htmlContent = htmlContent.replace(/\u00DB/g, "&Ucirc;");
+            htmlContent = htmlContent.replace(/\u00DC/g, "&Uuml;");
             
-            htmlContent = htmlContent.replace("Ý", "&Yacute;");
+            htmlContent = htmlContent.replace(/\u00DD/g, "&Yacute;");
 
-            htmlContent = htmlContent.replace("ß", "&szlig;");
+            htmlContent = htmlContent.replace(/\u00DF/g, "&szlig;");
             
-            htmlContent = htmlContent.replace("à", "&agrave;");
-            htmlContent = htmlContent.replace("á", "&aacute;");
-            htmlContent = htmlContent.replace("â", "&acirc;");
-            htmlContent = htmlContent.replace("ã", "&atilde;");
-            htmlContent = htmlContent.replace("ä", "&auml;");
-            htmlContent = htmlContent.replace("å", "&aring;");
-            htmlContent = htmlContent.replace("æ", "&aelig;");
+            htmlContent = htmlContent.replace(/\u00e0/g, "&agrave;");
+            htmlContent = htmlContent.replace(/\u00e1/g, "&aacute;");
+            htmlContent = htmlContent.replace(/\u00e2/g, "&acirc;");
+            htmlContent = htmlContent.replace(/\u00e3/g, "&atilde;");
+            htmlContent = htmlContent.replace(/\u00e4/g, "&auml;");
+            htmlContent = htmlContent.replace(/\u00e5/g, "&aring;");
+            htmlContent = htmlContent.replace(/\u00e6/g, "&aelig;");
             
-            htmlContent = htmlContent.replace("ç", "&ccedil;");
+            htmlContent = htmlContent.replace(/\u00E7/g, "&ccedil;");
 
 
-            htmlContent = htmlContent.replace("è", "&egrave;");
-            htmlContent = htmlContent.replace("é", "&eacute;");
-            htmlContent = htmlContent.replace("ê", "&ecirc;");
-            htmlContent = htmlContent.replace("ë", "&euml;");
+            htmlContent = htmlContent.replace(/\u00E8/g, "&egrave;");
+            htmlContent = htmlContent.replace(/\u00E9/g, "&eacute;");
+            htmlContent = htmlContent.replace(/\u00Ea/g, "&ecirc;");
+            htmlContent = htmlContent.replace(/\u00EB/g, "&euml;");
             
-            htmlContent = htmlContent.replace("ì", "&igrave;");
-            htmlContent = htmlContent.replace("í", "&iacute;");
-            htmlContent = htmlContent.replace("î", "&icirc;");
+            htmlContent = htmlContent.replace(/\u00EC/g, "&igrave;");
+            htmlContent = htmlContent.replace(/\u00ED/g, "&iacute;");
+            htmlContent = htmlContent.replace(/\u00EE/g, "&icirc;");
+            htmlContent = htmlContent.replace(/\u00EF/g, "&iuml;");
+            
+            htmlContent = htmlContent.replace(/\u00F1/g, "&ntilde;");
+            
+            htmlContent = htmlContent.replace(/\u00E2/g, "&ograve;");
+            htmlContent = htmlContent.replace(/\u00F3/g, "&oacute;");
+            htmlContent = htmlContent.replace(/\u00F4/g, "&ocirc;");
+            htmlContent = htmlContent.replace(/\u00F5/g, "&otilde;");
+            htmlContent = htmlContent.replace(/\u00F6/g, "&ouml;");
+            
+            htmlContent = htmlContent.replace(/\u00F9/g, "&ugrave;");
+            htmlContent = htmlContent.replace(/\u00FA/g, "&uacute;");
+            htmlContent = htmlContent.replace(/\u00FB/g, "&ucirc;");
+            htmlContent = htmlContent.replace(/\u00FC/g, "&uuml;");
+            
+            htmlContent = htmlContent.replace(/\u00FD/g, "&yacute;");
+            htmlContent = htmlContent.replace(/\u00FF/g, "&yuml;");
 
-            htmlContent = htmlContent.replace("Ð", "&ETH;");
+            htmlContent = htmlContent.replace(/\u00fE/g, "&thorn;");
             
-            htmlContent = htmlContent.replace("ñ", "&ntilde;");
-            
-            htmlContent = htmlContent.replace("ò", "&ograve;");
-            htmlContent = htmlContent.replace("ó", "&oacute;");
-            htmlContent = htmlContent.replace("ô", "&ocirc;");
-            htmlContent = htmlContent.replace("õ", "&otilde;");
-            htmlContent = htmlContent.replace("ö", "&ouml;");
-            
-            htmlContent = htmlContent.replace("ù", "&ugrave;");
-            htmlContent = htmlContent.replace("ú", "&uacute;");
-            htmlContent = htmlContent.replace("û", "&ucirc;");
-            htmlContent = htmlContent.replace("ü", "&uuml;");
-            
-            htmlContent = htmlContent.replace("ý", "&yacute;");
-            htmlContent = htmlContent.replace("ÿ", "&yuml;");
-
-            htmlContent = htmlContent.replace("þ", "&thorn;");
-            
-            htmlContent = htmlContent.replace("†", "&dagger;");
+            htmlContent = htmlContent.replace(/\u2020/g, "&dagger;");
             
             
             activeText.setText(htmlContent);
