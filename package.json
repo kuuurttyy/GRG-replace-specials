@@ -17,6 +17,6 @@
         "README.md"
     ],
     "engines": {
-        "brackets": ">=1.00.0"
+        "brackets": ">=0.30.0"
     }
 }
