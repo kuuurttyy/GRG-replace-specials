@@ -71,6 +71,9 @@ define(function (require, exports, module) {
             htmlContent = htmlContent.replace(/\u00D4/g, "&Ocirc;");
             htmlContent = htmlContent.replace(/\u00D5/g, "&Otilde;");
             htmlContent = htmlContent.replace(/\u00D6/g, "&Ouml;");
+            
+            htmlContent = htmlContent.replace(/\u00D7/g, "&times;");
+            htmlContent = htmlContent.replace(/\u00D8/g, "&Oslash;");
 
             htmlContent = htmlContent.replace(/\u00D9/g, "&Ugrave;");
             htmlContent = htmlContent.replace(/\u00DA/g, "&Uacute;");
@@ -78,6 +81,8 @@ define(function (require, exports, module) {
             htmlContent = htmlContent.replace(/\u00DC/g, "&Uuml;");
             
             htmlContent = htmlContent.replace(/\u00DD/g, "&Yacute;");
+            
+            htmlContent = htmlContent.replace(/\u00DE/g, "&THORN;");
 
             htmlContent = htmlContent.replace(/\u00DF/g, "&szlig;");
             
@@ -109,6 +114,8 @@ define(function (require, exports, module) {
             htmlContent = htmlContent.replace(/\u00F4/g, "&ocirc;");
             htmlContent = htmlContent.replace(/\u00F5/g, "&otilde;");
             htmlContent = htmlContent.replace(/\u00F6/g, "&ouml;");
+            
+            htmlContent = htmlContent.replace(/\u00F7/g, "&divide;");
             
             htmlContent = htmlContent.replace(/\u00F9/g, "&ugrave;");
             htmlContent = htmlContent.replace(/\u00FA/g, "&uacute;");

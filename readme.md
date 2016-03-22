@@ -68,6 +68,9 @@ long dash to &.mdash;
 
 &Ouml; to &.Ouml;
 
+&times; to &.times;
+
+&Oslash; to &.Oslash;
 
 &Ugrave; to &.Ugrave;
 
@@ -80,6 +83,8 @@ long dash to &.mdash;
 &Uuml; to &.Uuml;
 
 &Yacute; to &.Yacute;
+
+&THORN; to &.THORN;
 
 &szlig; to &.szlig;
 
@@ -113,8 +118,6 @@ long dash to &.mdash;
 
 &icirc; to &.icirc;
 
-&ETH; to &.ETH;
-
 &ntilde; to &.ntilde;
 
 &ograve; to &.ograve;
@@ -126,6 +129,8 @@ long dash to &.mdash;
 &otilde; to &.otilde;
 
 &ouml; to &.ouml;
+
+&divide; to &.divide;
 
 &ugrave; to &.ugrave;
 
@@ -158,7 +163,7 @@ Usage
 =====
 Open or create a new file.
 
-Once ready to switch characters, hit File > Replace Specials (or press Ctrl-Alt-9) to run the extension.
+Once ready to switch characters, hit File > Replace Special Characters (or press Ctrl-Alt-9) to run the extension.
 
 You can then save the changes after, or hit undo to completely undo the action.
 
